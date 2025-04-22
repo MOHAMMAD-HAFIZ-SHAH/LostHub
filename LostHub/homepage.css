@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #3f3f3f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-section span {
+    font-size: 24px; /* Increase the text size */
+    color: white;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Adds space between icon and text */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* Main content styling */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.report-button {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #3f3f3f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.report-button:hover {
+    background-color: #575757;
+}

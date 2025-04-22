@@ -1,0 +1,24 @@
+{
+    "siteTitle": "Losthub",
+    "logoImage": "logo.png",
+    "navLinks": [
+        { "text": "About us", "href": "about_us.html" },
+        { "text": "How it works", "href": "how_works.html" },
+        { "text": "FAQs", "href": "FAQS.html" }
+    ],
+    "authLinks": [
+        { "text": "Login", "href": "login.html" },
+        { "text": "Sign Up", "href": "register.html", "class": "signup-btn" }
+    ],
+    "main": {
+        "headline": "Helping each other find what’s lost, one item at a time.",
+        "paragraph": "By using Losthub, you’re contributing to a trustworthy community. Whether it’s a wallet, keys, or even a piece of clothing, together we can make sure lost items find their way home!",
+        "image": "ladder.png",
+        "imageAlt": "Person searching for lost items from a ladder"
+    },
+    "contact": {
+        "phone": "+917654789307",
+        "email": "losthub@gmail.com"
+    },
+    "footer": "© 2023 - Losthub. All rights reserved."
+}

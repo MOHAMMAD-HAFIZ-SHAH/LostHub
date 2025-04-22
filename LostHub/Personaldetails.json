@@ -1,0 +1,17 @@
+{
+    "profilePicture": "Profilepicture.png",
+    "logo": "logo.png",
+    "headerTitle": "Personal Details",
+    "backButtonText": "Back",
+    "backButtonLink": "homepage.html",
+    "uploadButtonText": "Upload",
+    "details": [
+        {"label": "Full Name:", "placeholder": "Enter Full Name"},
+        {"label": "Enrollment:", "placeholder": "Enter Enrollment No."},
+        {"label": "Course:", "placeholder": "Enter Course"},
+        {"label": "Batch:", "placeholder": "Enter Batch"},
+        {"label": "Gender:", "placeholder": "Enter Gender"},
+        {"label": "Email:", "placeholder": "Enter Email"},
+        {"label": "Contact No.:", "placeholder": "Enter Contact No."}
+    ]
+}

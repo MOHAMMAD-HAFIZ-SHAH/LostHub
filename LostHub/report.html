@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost Item Report</title>
+    <link rel="stylesheet" href="report.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <div class="header">
+        <a href="homepage.html" class="btn back-btn">Back</a>
+    </div>
+
+    <div class="container">
+        <div class="report-box">
+            <div class="logo">
+                <img src="logo.png" alt="Lost and Found Logo">
+            </div>
+            <h2>Lost Item Report</h2>
+            <p>Register Lost Item</p>
+            <form action="/submit-lost" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="itemType" value="lost"> <!-- Hidden field to indicate this is a lost item -->
+                
+                <div class="input-box">
+                    <label for="item-name">Item name:</label>
+                    <input type="text" id="item-name" name="itemName" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="details">Item Details:</label>
+                    <input type="text" id="details" name="details" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="item-image">Item image:</label>
+                    <input type="file" id="item-image" name="item-image" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="contact">Your Contact:</label>
+                    <input type="text" id="contact" name="contact" required>
+                </div>
+
+                <button type="submit" class="register-btn">Register Lost Item</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

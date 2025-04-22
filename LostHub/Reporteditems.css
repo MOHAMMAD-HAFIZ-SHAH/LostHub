@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    position: relative;
+}
+
+/* Back button on the left */
+.back-button {
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.back-button:hover{
+    background-color: #444;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3px);
+}
+
+/* Logo on the right */
+.logo-container {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* Search bar in the center */
+.search-bar-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+
+/* Lost and found table */
+.lost-found-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.lost-found-table th, .lost-found-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.lost-found-table th {
+    background-color: #f2f2f2;
+}
+
+.item-image {
+    width: 100px;
+    height: auto;
+}

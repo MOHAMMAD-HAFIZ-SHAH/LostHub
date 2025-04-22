@@ -1,0 +1,23 @@
+{
+    "profile": {
+      "name": "Profile",
+      "icon": "Profilepicture.png"
+    },
+    "logo": {
+      "src": "logo.png",
+      "alt": "Logo"
+    },
+    "navLinks": [
+      { "text": "Personal Details", "href": "Personaldetails.html" },
+      { "text": "Reported Items", "href": "Reporteditems.html" },
+      { "text": "Settings", "href": "settings.html" },
+      { "text": "Logout", "href": "Front_page.html" }
+    ],
+    "mainContent": {
+      "buttons": [
+        { "text": "Found Article Report", "href": "found.html", "class": "report-button" },
+        { "text": "Lost Article Report", "href": "report.html", "class": "report-button" }
+      ]
+    }
+  }
+  

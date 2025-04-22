@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Found Article Report</title>
+    <link rel="stylesheet" href="found.css">
+</head>
+<body>
+    <div class="header">
+        <a href="/" class="btn back-btn">Back</a>
+    </div>
+
+    <div class="container">
+        <div class="report-box">
+            <div class="logo">
+                <img src="logo.png" alt="Lost and Found Logo">
+            </div>
+            <h2>Found Article Report</h2>
+            <p>Register Found Item</p>
+            <form action="/submit-found" method="POST" enctype="multipart/form-data">
+                <div class="input-box">
+                    <label for="item-name">Item name:</label>
+                    <input type="text" id="item-name" name="itemName" required>
+                </div>
+                <div class="input-box">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <div class="input-box">
+                    <label for="details">Details:</label>
+                    <input type="text" id="details" name="details" required>
+                </div>
+                <div class="input-box">
+                    <label for="item-image">Item image:</label>
+                    <input type="file" id="item-image" name="item-image">
+                </div>
+                <div class="input-box">
+                    <label for="contact">Contact:</label>
+                    <input type="text" id="contact" name="contact" required>
+                </div>
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
